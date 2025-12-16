@@ -1,0 +1,20 @@
+{
+    "capsule_id":  "c245fc59-db1f-4eb8-a56d-79422552bb74",
+    "source":  "EpochCoreMASTER",
+    "ras_root":  "e5586ef939094a8e",
+    "coherence":  0.999999,
+    "agent_systems":  [
+                          {
+                              "status":  "OPERATIONAL",
+                              "agents":  5,
+                              "name":  "Epoch5 Security"
+                          },
+                          {
+                              "status":  "OPERATIONAL",
+                              "agents":  10,
+                              "name":  "Fintech 10-Pack"
+                          }
+                      ],
+    "flash_sync_timestamp":  "2025-12-16T06:23:08Z",
+    "status":  "org_sync"
+}
