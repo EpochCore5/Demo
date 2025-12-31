@@ -1,0 +1,22 @@
+{
+  "name": "moleculegen-mcp-server",
+  "version": "1.0.0",
+  "description": "MoleculeGen MCP Server for QCM5 quantum molecular generation",
+  "repository": "EpochCore5/Demo",
+  "qcm5_integration": {
+    "coherence": 0.99999999999999999,
+    "frequency_hz": 7777.77,
+    "ras_root": "40668c787c463ca5"
+  },
+  "capabilities": {
+    "molecular_generation": true,
+    "quantum_optimization": true,
+    "flash_sync": true
+  },
+  "endpoints": {
+    "generate": "/api/moleculegen/generate",
+    "optimize": "/api/moleculegen/optimize",
+    "health": "/api/moleculegen/health"
+  },
+  "pattern": "MOLECULEGEN-MCP-SERVER-QCM5"
+}
